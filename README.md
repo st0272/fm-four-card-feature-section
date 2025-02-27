@@ -57,7 +57,7 @@ Responsive grid layout
   margin-inline: auto;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 48.0625rem) {
   .card-container {
     width: min(calc(100% - 3.75rem), 69.375rem);
     grid-template-columns: repeat(3, 1fr);
@@ -78,7 +78,7 @@ Responsive grid layout
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .card-container {
     width: 83%;
     grid-template-columns: 1fr;
